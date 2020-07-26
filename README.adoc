@@ -1,0 +1,6 @@
+/loadActors/{actors}
+Provides a way to create WorkerActors based on the number of actos specified.
+Each actor is calling a BuisnessService to perform a sleep of 1 second
+Also the creating of actors is happening in the controller so the call will be blocked for the amount of time
+until all the actors complete the perform method.
+
